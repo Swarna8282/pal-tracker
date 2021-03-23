@@ -13,6 +13,7 @@ public class WelcomeController {
         this.welcomeMsg = welcomeMsg;
     }
 
+    // Home page
     @GetMapping("/")
     public String sayHello () {
         return welcomeMsg;
